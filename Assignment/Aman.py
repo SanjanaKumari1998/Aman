@@ -42,10 +42,25 @@ time.sleep(4)
 
 
 # Selecting a picture 
-Button_link = driver.find_element("xpath","/html/body/div[2]/div[2]/div[3]/div[1]/div[4]/div[4]/div/div[1]/div/div/div/form/div/div/div/div/div[3]/div/div[23]/div/div/span[2]/span/input")
+#Button_link = driver.find_element("xpath","/html/body/div[2]/div[2]/div[3]/div[1]/div[4]/div[4]/div/div[1]/div/div/div/form/div/div/div/div/div[3]/div/div[23]/div/div/span[2]/span/input")
 #Button_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
-Button_link.click()
+#Button_link.click()
+#time.sleep(4)
+
+#Buy_now_button = driver.find_element("id","Buy-now-button").click()
+#driver.find_element("xpath","//html/body/div[2]/div[2]/div[3]/div[1]/div[4]/div[4]/div/div[1]/div/div/div/form/div/div/div/div/div[3]/div/div[23]/div/div/span[2]/span/input")
+
+
+New_york_link = driver.find_element("xpath","/html/body/div[2]/header/div/div[6]/div/a[8]/span")
+#Book_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
+New_york_link.click()
 time.sleep(4)
+
+
+
+
+
+
 
 driver.close()
 
